@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task #3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Registration Application Form For Course - 0 LEVEL</h2>
+
+    <!-- 1. Registration Form -->
+    <form action="backend.php">
+        <div class="container" style="background-color: rgb(33, 114, 138); color: white;">
+            1. Registration Form
+        </div>
+
+        <div class="container">
+            <div class="item item1">1.1</div>
+            <div class="item item2">Have you got online reference number for enrolment with
+                NIELIT/Accreditation/Extension
+                Center:
+            </div>
+            <div class="item item3">
+                <input type="radio" name="yesno" id="yes"><label for="yes">Yes</label>
+                <input type="radio" name="yesno" id="no"> <label for="no">No</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">1.2</div>
+            <div class="item item2">
+                Registration sought for
+            </div>
+            <div class="item item3">
+                <select name="option" for="form">
+                    <option value="FVFI">FVFI</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">1.3</div>
+            <div class="item item2">
+                Applied As
+            </div>
+            <div class="item item3">
+                <input type="radio" name="select" id="Direct Candidate"><label for="Direct Candidate">Direct Candidate</label>
+                <input type="radio" name="select" id="Through Institute"> <label for="Through Institute">Through Institute</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">1.4</div>
+            <div class="item item2">
+                Exam Cycle
+            </div>
+            <div class="item item3">
+                <input type="month">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">1.5</div>
+            <div class="item item2">
+                Registration fee will be paid by ?
+            </div>
+            <div class="item item3">
+                <input type="button" name="button" id="btn" value="Candidate Direct to NIELIT">
+            </div>
+        </div>
+
+        <!--2. Applicant's Personal Details  -->
+
+        <div class="container" style="background-color: rgb(33, 114, 138); color: white;">
+            2. Applicant's Personal Details
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.1</div>
+            <div class="item item2">
+                Applicant's full name
+            </div>
+            <div class="item item3">
+                <input type="text" id="fname" name="fname">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.2</div>
+            <div class="item item2">
+                Care of
+            </div>
+            <div class="item item3">
+                <input type="radio" name="careOf" id="Parents"> <label for="Parents">Parents</label>
+                <input type="radio" name="careOf" id="Guardian"> <label for="Guardian">Guardian</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.3</div>
+            <div class="item item2">
+                Father Name
+            </div>
+            <div class="item item3">
+                <label for="Father">Mr.</label>
+                <input type="text" id="Father" name="fName">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.4</div>
+            <div class="item item2">
+                Mother name
+            </div>
+            <div class="item item3">
+                <label for="Mother">Mrs.</label>
+                <input type="text" id="Mother" name="mName">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.5</div>
+            <div class="item item2">
+                Gender
+            </div>
+            <div class="item item3">
+                <input type="radio" name="Gender" id="Male"><label for="Male">Male</label>
+                <input type="radio" name="Gender" id="Female"><label for="Female">Female</label>
+                <input type="radio" name="Gender" id="Others"><label for="Others">Others</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.6</div>
+            <div class="item item2">
+                Date of Birth
+            </div>
+            <div class="item item3">
+                <input type="date" name="dob" id="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.7</div>
+            <div class="item item2">
+                Marital Status
+            </div>
+            <div class="item item3">
+                <label for="Status"></label>
+                <select name="Status" id="">
+                    <option value="Unmarried">Unmarried</option>
+                    <option value="Married">Married</option>
+                    <option value="Divorced">Divorced</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.8</div>
+            <div class="item item2">
+                Category
+            </div>
+            <div class="item item3">
+                <label for="Status"></label>
+                <select name="Status" id="">
+                    <option value="Unmarried">select </option>
+                    <option value="Married"></option>
+                    <option value="Divorced"></option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.9</div>
+            <div class="item item2">
+                Handicapped
+            </div>
+            <div class="item item3">
+                <input type="radio" name="Handicapped"><label for="form">Yes</label>
+                <input type="radio" name="Handicapped"> <label for="form">No</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.10</div>
+            <div class="item item2">
+                Ex-Serviceman
+            </div>
+            <div class="item item3">
+                <input type="radio" name="Ex-Serviceman"><label for="form">Yes</label>
+                <input type="radio" name="Ex-Serviceman"> <label for="form">No</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.10</div>
+            <div class="item item2">
+                EWS
+            </div>
+            <div class="item item3">
+                <input type="radio" name="EWS"><label for="form">Yes</label>
+                <input type="radio" name="EWS"> <label for="form">No</label>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">2.10</div>
+            <div class="item item2">
+                Religion
+            </div>
+            <div class="item item3">
+                <label for="Religion"></label>
+                <select name="Religion" id="">
+                    <option value="Hindu">Hindu</option>
+                    <option value="Muslim">Muslim</option>
+                    <option value="Sikh">Sikh</option>
+                    <option value="Jain">Jain</option>
+                    <option value="Christian">Christian</option>
+                </select>
+            </div>
+        </div>
+
+        <!--3. Contact Details  -->
+
+        <div class="container" style="background-color: rgb(33, 114, 138); color: white;">
+            3. Contact Details
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.1</div>
+            <div class="item item2">
+                Mobile No
+            </div>
+            <div class="item item3">
+                <input type="tel" maxlength="10" pattern="[1-9]{1}[0-9]{9}">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.2</div>
+            <div class="item item2">
+                Email
+            </div>
+            <div class="item item3">
+                <input type="email" name="" id="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.3</div>
+            <div class="item item2">
+                Address Line 1
+            </div>
+            <div class="item item3">
+                <input type="text" name="" id="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.4</div>
+            <div class="item item2">
+                Address Line 2
+            </div>
+            <div class="item item3">
+                <input type="text" name="" id="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.5</div>
+            <div class="item item2">
+                City
+            </div>
+            <div class="item item3">
+                <input type="text" name="" id="">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.6</div>
+            <div class="item item2">
+                State
+            </div>
+            <div class="item item3">
+                <label for="State"></label>
+                <select name="State" id="">
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="ChhattisgarhGoa">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">3.7</div>
+            <div class="item item2">
+                Pin Code
+            </div>
+            <div class="item item3">
+                <input type="tel" maxlength="6" pattern="[1-9]{1}[0-9]{9}">
+            </div>
+        </div>
+
+        <!--4. Educational / Qualification Details  -->
+
+        <div class="container" style="background-color: rgb(33, 114, 138); color: white;">
+            4. Educational / Qualification Details
+        </div>
+
+        <div class="container">
+            <div class="item item1">4.1</div>
+            <div class="item item2">
+                Highest Educational Qualification
+            </div>
+            <div class="item item3">
+                <label for="Qualification"></label>
+                <select name="Qualification" id="">
+                    <option value="8th Pass">8th Pass</option>
+                    <option value="10th Pass">10th Pass</option>
+                    <option value="12th Pass">12th Pass</option>
+                    <option value="Graduate">Graduate</option>
+                    <option value="Masters">Masters</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">4.2</div>
+            <div class="item item2">
+                Year of Passing
+            </div>
+            <div class="item item3">
+                <input type="month" name="" id="">
+            </div>
+        </div>
+
+        <!--5. Identification Details  -->
+
+        <div class="container" style="background-color: rgb(33, 114, 138); color: white;">
+            5. Identification Details
+        </div>
+
+        <div class="container">
+            <div class="item item1">5.1</div>
+            <div class="item item2">
+                Aadhar Card No
+            </div>
+            <div class="item item3">
+                <input type="tel" name="" id="" maxlength="12">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="item item1">5.2</div>
+            <div class="item item2">
+                Upload Photo
+            </div>
+            <div class="item item3">
+                <input type="file" name="" id="">
+            </div>
+        </div>
+
+        <div class="container" style=" color: black; justify-content: center;">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
