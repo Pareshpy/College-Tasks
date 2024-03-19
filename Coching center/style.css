@@ -33,7 +33,14 @@ body {
     text-decoration: none;
     font-weight: 700;
 }
-
+.Leaf{
+    width: 53px;
+    height: 53px;
+    position: absolute;
+    left: 51px;
+    top: 15px;
+    filter: invert();
+}
 .navbar a {
     position: relative;
     font-size: 18px;
@@ -71,10 +78,66 @@ body {
 .container {
     position: relative;
     display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    left: 464px;
+    top: 60px;
+    width: 40%;
+    height: 480px;
+    flex-direction: column;
+}
+
+.form h1 {
+    color: #102948;
     justify-content: center;
     align-items: center;
-    left: 200px;
-    top: 60px;
-    width: 70%;
-    height: 250px;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.formGroup input {
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-bottom: 2px solid #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px solid #102948;
+    font-size: 17px;
+    font-weight: bold;
+}
+input:hover{
+    outline: none;
+    border-bottom: 2px solid #102948;
+    font-size: 17px;
+    font-weight: bold;
+    transition: .2s;
+}
+.btn{
+    padding: 10px;
+    outline: none;
+    width: 150px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #102948;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn:hover{
+    background-color: #0c2038;
 }
