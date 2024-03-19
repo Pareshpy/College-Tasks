@@ -160,3 +160,18 @@ input:hover {
 .signup:hover {
     background-color: #0c2038;
 }
+
+.chatBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 2px;
+    width: 7%;
+    height: 33px;
+    border-radius: 34px;
+    cursor:pointer;
+    color: #fff;
+    font-weight: 400;
+}
