@@ -171,7 +171,30 @@ input:hover {
     width: 7%;
     height: 33px;
     border-radius: 34px;
-    cursor:pointer;
+    cursor: pointer;
     color: #fff;
     font-weight: 400;
 }
+
+/* .paragraph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    width: 70%;
+    height: 253px;
+    border-radius: 34px;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.found-img {
+    position: absolute;
+    right: 23px;
+    width: 285px;
+    height: 200px;
+    top: 175px;
+    border-radius: 20px;
+} */
